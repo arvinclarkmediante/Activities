@@ -1,5 +1,5 @@
 // VARIABLES
-let name = "John";
+let name = "Ac";
 let score = 0;
 let passing = 15;
 
