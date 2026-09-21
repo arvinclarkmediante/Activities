@@ -67,4 +67,26 @@ const boostedScores = listB.map((score) => score + 5);
 
 // 2 ARRAYS USING .filter()
 const passedStudents = studentList.filter((s) => s.score >= passScore);
-const highScores = listB.filter((score) => score >= 85);               
+const highScores = listB.filter((score) => score >= 85);
+
+// 2 OBJECT LITERALS USING OPTIONAL CHAINING
+const myEmail = student1.contact?.email;  ("arvinclarkmediante@gmail.com")
+const classmatePhone = student3.contact?.phone; ("00446278190")
+
+// OUTPUT DISPLAY
+console.log(t1);
+console.log(`Student Names: ${studentNames.join(", ")}\n`);
+console.log("Passed Students:\n");
+console.log(`My name: '${student1.name.trim()}',`);
+console.log(`score: ${student1.score},`);
+console.log(`contact: email: '${student1.contact.email}'\n`);
+
+console.log(`Classmate name: '${student2.name}',`);
+console.log(`score: ${student2.score},`);
+console.log(`contact: phone: ${student2.contact.phone}\n`);
+
+console.log(`Classmate name: '${student3.name}',`);
+console.log(`score: ${student3.score},`);
+console.log(`contact: phone: ${student3.contact.phone}\n`);
+
+console.log(`My Email: ${myEmail}`);
