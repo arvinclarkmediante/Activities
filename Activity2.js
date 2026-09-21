@@ -40,3 +40,15 @@ class Instructor extends Person {
     return `Hello, I am Prof. ${this.name}, teaching ${this.subject}.`;
   }
 }
+
+// 3. GLOBAL VARIABLES & DATA STRUCTURES
+const school = "NWSSU";
+let yearLevel = 3;
+const isEnrolled = true;
+
+const skills = ["Java", "HTML", "CSS"];
+const hobbies = ["Gaming", "Basketball"];
+const subjects = ["Programming", "OOP"];
+
+const address = { city: "Calbayog", region: "Eastern Visayas" };
+const contact = { email: "arvinclarkmediante@email.com" };
