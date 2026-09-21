@@ -40,3 +40,13 @@ const t7 = `Lowest Score: ${lowScore}`;
 const t8 = `Average Score: ${avgScore}`;
 const t9 = `Total Clubs: ${totalClubs}`;
 const t10 = `Active User: ${activeUser}`;
+
+// 3 DESTRUCTURED ARRAYS
+const [subject1, subject2] = listA;   
+const [score1, score2] = listB;       
+const [firstItem] = ["NWSSU Campus"]; 
+
+// 3 DESTRUCTURED OBJECT LITERALS
+const { name: name1, score: s1 } = student1; 
+const { name: name2, score: s2 } = student2; 
+const { name: name3, score: s3 } = student3; 
