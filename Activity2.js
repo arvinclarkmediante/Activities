@@ -41,7 +41,7 @@ class Instructor extends Person {
   }
 }
 
-// 3. GLOBAL VARIABLES & DATA STRUCTURES
+// 3.VARIABLES & DATA STRUCTURES
 const school = "NWSSU";
 let yearLevel = 3;
 const isEnrolled = true;
@@ -52,3 +52,31 @@ const subjects = ["Programming", "OOP"];
 
 const address = { city: "Calbayog", region: "Eastern Visayas" };
 const contact = { email: "arvinclarkmediante@email.com" };
+
+// 4. LOGIC & CONTROL STRUCTURES
+class ProfileManager {
+  displayInfo() {
+    console.log(`--- SKILLS ---`);
+    for (let i = 0; i < skills.length; i++) {
+      console.log(`- ${skills[i]}`);
+    }
+
+    console.log(`\n--- HOBBIES ---`);
+    for (let hobby of hobbies) {
+      if (hobby === "Basketball") {
+        console.log(`- ${hobby} (Favorite)`);
+      } else {
+        console.log(`- ${hobby}`);
+      }
+    }
+
+    console.log(`\n--- SUBJECTS ---`);
+    let index = 0;
+    while (index < subjects.length) {
+      if (isEnrolled) {
+        console.log(`- ${subjects[index]}`);
+      }
+      index++;
+    }
+  }
+}
