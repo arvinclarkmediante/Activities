@@ -21,3 +21,10 @@ let avgScore = 90.3;
 let isOpen = true;
 let totalClubs = 5;
 let activeUser = "Jayrold kim";
+
+// 5 ARROW FUNCTIONS
+const doubleFee = (amount) => amount * 2;
+const getSchool = () => school;
+const isPass = (score) => score >= passScore;
+const addScores = (a, b) => a + b;
+const getStatus = () => status;
