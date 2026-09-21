@@ -80,3 +80,14 @@ class ProfileManager {
     }
   }
 }
+
+// 5. INSTANTIATION & EXECUTION
+const me = new Student("Arvin Clark Mediante", "BSIT-3A");
+const classmate = new Student("Jayrold Kim", "BSIT-3A");
+const teacher = new Instructor("Yuri Ortiz", "OOP");
+const manager = new ProfileManager();
+
+console.log(me.introduce());
+console.log(teacher.introduce());
+console.log("\n");
+manager.displayInfo();
