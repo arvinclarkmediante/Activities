@@ -18,6 +18,7 @@ class Person {
   }
 }
 
+// 2. INHERITANCE & POLYMORPHISM
 class Student extends Person {
   constructor(name, section) {
     super(name);
@@ -26,5 +27,16 @@ class Student extends Person {
 
   introduce() {
     return `Hi, I am ${this.name} from ${this.section}.`;
+  }
+}
+
+class Instructor extends Person {
+  constructor(name, subject) {
+    super(name);
+    this.subject = subject;
+  }
+
+  introduce() {
+    return `Hello, I am Prof. ${this.name}, teaching ${this.subject}.`;
   }
 }
