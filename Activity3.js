@@ -59,3 +59,12 @@ const allScores = [...listB, 100];
 const updatedStudent1 = { ...student1, status: "Passed" }; 
 const updatedStudent2 = { ...student2, status: "Passed" }; 
  
+// 2 ARRAYS USING .map()
+const studentList = [student1, student2, student3];
+
+const studentNames = studentList.map((s) => `'${s.name.trim()}'`); 
+const boostedScores = listB.map((score) => score + 5);             
+
+// 2 ARRAYS USING .filter()
+const passedStudents = studentList.filter((s) => s.score >= passScore);
+const highScores = listB.filter((score) => score >= 85);               
