@@ -24,3 +24,20 @@ if (quiz[2] >= 3) {
 } else {
     console.log("History Failed");
 }
+
+// LOOPS
+for (let i = 0; i < quiz.length; i++) {
+    score += quiz[i] + bonus[i];
+}
+for (let subject of subjects) {
+    console.log(subject);
+}
+let count = 3;
+
+while (count > 0) {
+    console.log(count);
+    count--;
+}
+
+console.log("Name: " + name);
+console.log("Score: " + score);
