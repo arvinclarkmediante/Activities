@@ -50,3 +50,12 @@ const [firstItem] = ["NWSSU Campus"];
 const { name: name1, score: s1 } = student1; 
 const { name: name2, score: s2 } = student2; 
 const { name: name3, score: s3 } = student3; 
+
+// 2 ARRAYS USING SPREAD OPERATOR
+const allSubjects = [...listA, "Physics"]; 
+const allScores = [...listB, 100];        
+
+// 2 OBJECT LITERALS USING SPREAD OPERATOR
+const updatedStudent1 = { ...student1, status: "Passed" }; 
+const updatedStudent2 = { ...student2, status: "Passed" }; 
+ 
