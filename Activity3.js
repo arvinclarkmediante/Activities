@@ -28,3 +28,15 @@ const getSchool = () => school;
 const isPass = (score) => score >= passScore;
 const addScores = (a, b) => a + b;
 const getStatus = () => status;
+
+// 10 TEMPLATE LITERALS
+const t1 = `School: ${school}`;
+const t2 = `Term: ${term}`;
+const t3 = `Total Students: ${totalStudents}`;
+const t4 = `Status: ${status}`;
+const t5 = `Class Leader: ${leader}`;
+const t6 = `Top Score: ${topScore}`;
+const t7 = `Lowest Score: ${lowScore}`;
+const t8 = `Average Score: ${avgScore}`;
+const t9 = `Total Clubs: ${totalClubs}`;
+const t10 = `Active User: ${activeUser}`;
